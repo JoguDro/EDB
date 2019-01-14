@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/theme"
+        android:icon="@drawable/theme"
+        android:title="Keyboard"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/white"
+                android:icon="@drawable/light"
+                android:title="Light"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/black"
+                android:icon="@drawable/black"
+                android:title="Dark"
+                app:showAsAction="always" />
+        </menu>
+
+    </item>
+
+</menu>
+
+
+
+
+
+
+

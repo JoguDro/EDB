@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EDB</string>
+
+    <string-array name="choice">
+        <item>- Select Type -</item>
+        <item>- Anime -</item>
+        <item>- Movies -</item>
+        <item>- Series -</item>
+    </string-array>
+
+</resources>
+
+
+

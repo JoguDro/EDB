@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hr.algebra.java.edb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddNewSerie"
+            android:label="Add new serie" />
+        <activity
+            android:name=".SerieDetails"
+            android:label="Serie detail" />
+        <activity
+            android:name=".EditSerie"
+            android:label="Edit serie" />
+        <activity
+            android:name=".AddNewMovie"
+            android:label="Add new movie" />
+        <activity
+            android:name=".MoviesDetails"
+            android:label="Movie detail" />
+        <activity
+            android:name=".EditMovie"
+            android:label="Edit movie" />
+        <activity
+            android:name=".AddNewAnime"
+            android:label="Add new anime" />
+        <activity
+            android:name=".AnimeDetails"
+            android:label="movie detail" />
+        <activity
+            android:name=".EditAnime"
+            android:label="Edit anime" />
+        <activity
+            android:name=".Anime"
+            android:windowSoftInputMode="stateHidden" />/>
+        <activity
+            android:name=".Movies"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Series"
+            android:windowSoftInputMode="stateHidden"></activity>
+    </application>
+
+</manifest>

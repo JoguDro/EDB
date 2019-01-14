@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".Series">
+
+    <EditText
+        android:id="@+id/myFilter"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="?attr/backgroundcolor"
+        android:cursorVisible="true"
+        android:hint="Search..."
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/textcolorhint"
+        android:textCursorDrawable="@drawable/mycursor" />
+
+    <ListView
+
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add"
+        android:layout_below="@+id/myFilter"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="?attr/backgroundcolor"
+        android:divider="?attr/listViewDivider"
+        android:dividerHeight="1dp" />
+
+
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/btnaddshape"
+        android:fontFamily="monospace"
+        android:onClick="addSerie"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Add"
+        android:textSize="20dp" />
+</RelativeLayout>

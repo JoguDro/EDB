@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:cursorVisible="true"
+            android:fontFamily="monospace"
+            android:hint="Name"
+            android:textColor="?attr/textcolor"
+            android:textColorHint="?attr/textcolor"
+            android:textCursorDrawable="@drawable/mycursor" />
+
+        <EditText
+            android:id="@+id/etGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:cursorVisible="true"
+            android:fontFamily="monospace"
+            android:hint="Genre"
+            android:textColor="?attr/textcolor"
+            android:textColorHint="?attr/textcolor"
+            android:textCursorDrawable="@drawable/mycursor" />
+
+        <EditText
+            android:id="@+id/etRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:cursorVisible="true"
+            android:fontFamily="monospace"
+            android:hint="Rating"
+            android:textColor="?attr/textcolor"
+            android:textColorHint="?attr/textcolor"
+            android:textCursorDrawable="@drawable/mycursor" />
+
+        <EditText
+            android:id="@+id/etYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:cursorVisible="true"
+            android:fontFamily="monospace"
+            android:hint="Year"
+            android:textColor="?attr/textcolor"
+            android:textColorHint="?attr/textcolor"
+            android:textCursorDrawable="@drawable/mycursor" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/btnaddshape"
+        android:fontFamily="monospace"
+        android:onClick="saveS"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="save"
+        android:textSize="20dp" />
+
+</RelativeLayout>

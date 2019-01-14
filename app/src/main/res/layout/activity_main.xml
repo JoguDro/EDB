@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvSel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Selection Choice"
+        android:textAlignment="center"
+        android:textColor="?attr/textcolor"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/line" />
+
+    <Spinner
+
+        android:id="@+id/spChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:entries="@array/choice"
+        android:popupBackground="@android:color/transparent">
+
+    </Spinner>
+
+    <com.bosphere.fadingedgelayout.FadingEdgeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fel_edge="top|bottom|left|right"
+        app:fel_size_left="10dp"
+        app:fel_size_right="10dp"
+        app:fel_size_top="300dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="@drawable/main_pic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="monospace"
+            android:text="- ENTERTAINMENT DATA BASE -"
+            android:textAlignment="center"
+            android:textColor="?attr/textcolor"
+            android:textSize="19dp" />
+
+
+    </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+
+
+</LinearLayout>
+

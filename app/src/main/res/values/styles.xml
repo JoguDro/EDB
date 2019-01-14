@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="listViewDivider">#e9e9e9</item>
+        <item name="listView">#1d1e1d</item>
+        <item name="editText">#1d1e1d</item>
+        <item name="backgroundcolor">#1d1e1d</item>
+        <item name="textcolor">#fff</item>
+        <item name="textcolorhint">#fff</item>
+        <item name="line">#fff</item>
+        <item name="cursor">#fff</item>
+        <item name="android:windowAnimationStyle">@style/ThemeTransition</item>
+    </style>
+
+    <style name="WhiteTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="listViewDivider">#181717</item>
+        <item name="listView">#fcfcfc</item>
+        <item name="editText">#fcfcfc</item>
+        <item name="backgroundcolor">#e9e9e9</item>
+        <item name="textcolor">#000</item>
+        <item name="textcolorhint">#000</item>
+        <item name="line">#000</item>
+        <item name="cursor">#000</item>
+        <item name="android:windowAnimationStyle">@style/ThemeTransition</item>
+    </style>
+
+    <style name="ThemeTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

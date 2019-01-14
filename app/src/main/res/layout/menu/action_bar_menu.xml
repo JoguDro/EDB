@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/abCloud"
+        android:icon="@drawable/ic_cloud_white_24dp"
+        android:title="Cloud"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/fillBlack"
+        android:icon="@drawable/ic_format_color_fill_black_24dp"
+        android:title="fill"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/kybBlack"
+        android:icon="@drawable/ic_keyboard_black_24dp"
+        android:title="Keyboard"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/money"
+                android:icon="@drawable/ic_monetization_on_white_24dp"
+                android:title="Money"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/phone"
+                android:icon="@drawable/ic_phone_android_black_24dp"
+                android:title="Phone"
+                app:showAsAction="always" />
+        </menu>
+
+    </item>
+
+</menu>
+
+
+
+
+
+
+
